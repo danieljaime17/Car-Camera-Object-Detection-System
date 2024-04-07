@@ -5,6 +5,7 @@ from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.applications.mobilenet_v2 import decode_predictions
 
+
 # Load pre-trained object detection model
 model = MobileNetV2(weights='imagenet')
 
